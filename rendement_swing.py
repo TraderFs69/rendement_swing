@@ -3,7 +3,8 @@ import requests
 import os
 from dotenv import load_dotenv
 import pandas as pd
-st.write("FILE EXECUTED:", __file__)
+import streamlit as st
+st.write("🏷️ FICHIER EN EXÉCUTION :", __file__)
 # --------------------------
 # LOAD POLYGON API KEY
 # --------------------------
